@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import Typical from "react-typical";
+import Typical from "react-typical";
 import "./Header.css";
 
 class Header extends Component {
@@ -59,7 +59,7 @@ class Header extends Component {
             </div>
             <div>
               <span className="primary-text">
-                {/* <h1 style={{ fontFamily: "Comic Sans MS",fontSize: '50px'}}>
+                <h1 style={{ fontFamily: "Comic Sans MS",fontSize: '50px'}}>
                   {" "}
                   <Typical
                     loop={Infinity}
@@ -74,7 +74,7 @@ class Header extends Component {
                       1000,
                     ]}
                   />
-                </h1> */}
+                </h1>
               </span>
               {/* <span className="profile-role-tagline">
               Knak of building application with frontend and backend operations.
