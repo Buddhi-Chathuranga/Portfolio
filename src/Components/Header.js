@@ -58,7 +58,7 @@ class Header extends Component {
               </span>
             </div>
             <div>
-              <span className="primary-text">
+              {/* <span className="primary-text">
                 <h1 style={{ fontFamily: "Comic Sans MS",fontSize: '50px'}}>
                   {" "}
                   <Typical
@@ -75,7 +75,7 @@ class Header extends Component {
                     ]}
                   />
                 </h1>
-              </span>
+              </span> */}
               {/* <span className="profile-role-tagline">
               Knak of building application with frontend and backend operations.
             </span> */}
