@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Typist from "react-typist";
 import Typed from "react-typed";
 import "./Header.css";
 
