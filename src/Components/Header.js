@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import Typical from "react-typical";
+import Typed from "react-typed";
 import "./Header.css";
 
 class Header extends Component {
@@ -51,15 +51,32 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <div className="profile-details-name">
+            {/* <Typist>
+                < Typist.Delay ms={10}/>
               <span className="primary-text" style={{ fontFamily: "Courier New", fontWeight: "bold" }}>
                 {" "}
                 Hello, I'M{" "}
                 <span className="highlighted-text">Buddhi Chathuranga</span>
               </span>
+            </Typist> */}
+            <span className="primary-text" style={{ fontFamily: "Courier New", fontWeight: "bold" }}>
+                {" "}
+                Hello, I'M{" "}
+                
+            <Typed
+            strings={["Buddhi Chathuranga ", "A Full Stack Developer","A web developer"]}
+            typeSpeed={60}
+            backSpeed={40}
+            loop
+          />
+              </span>
+
+
+
             </div>
             <div>
-              <span className="primary-text">
-                {/* <h1 style={{ fontFamily: "Comic Sans MS",fontSize: '50px'}}>
+              {/* <span className="primary-text">
+                <h1 style={{ fontFamily: "Comic Sans MS",fontSize: '50px'}}>
                   {" "}
                   <Typical
                     loop={Infinity}
@@ -74,8 +91,8 @@ class Header extends Component {
                       1000,
                     ]}
                   />
-                </h1> */}
-              </span>
+                </h1>
+              </span> */}
               {/* <span className="profile-role-tagline">
               Knak of building application with frontend and backend operations.
             </span> */}

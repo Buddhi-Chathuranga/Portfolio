@@ -7,7 +7,10 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-ga": "^2.3.5",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "react-spring": "^9.5.2",
+    "react-typed": "^1.2.0",
+    "typesense": "^1.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
