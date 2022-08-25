@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import Typical from "react-typical";
+import Typist from "react-typist";
 import "./Header.css";
 
 class Header extends Component {
@@ -51,11 +51,14 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <div className="profile-details-name">
+            <Typist>
+                < Typist.Delay ms={1000}/>
               <span className="primary-text" style={{ fontFamily: "Courier New", fontWeight: "bold" }}>
                 {" "}
                 Hello, I'M{" "}
                 <span className="highlighted-text">Buddhi Chathuranga</span>
               </span>
+            </Typist>
             </div>
             <div>
               {/* <span className="primary-text">
