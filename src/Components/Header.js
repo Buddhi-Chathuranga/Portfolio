@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Typist from "react-typist";
+import Typed from "react-typed";
 import "./Header.css";
 
 class Header extends Component {
@@ -51,14 +52,28 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <div className="profile-details-name">
-            <Typist>
-                < Typist.Delay ms={1000}/>
+            {/* <Typist>
+                < Typist.Delay ms={10}/>
               <span className="primary-text" style={{ fontFamily: "Courier New", fontWeight: "bold" }}>
                 {" "}
                 Hello, I'M{" "}
                 <span className="highlighted-text">Buddhi Chathuranga</span>
               </span>
-            </Typist>
+            </Typist> */}
+            <span className="primary-text" style={{ fontFamily: "Courier New", fontWeight: "bold" }}>
+                {" "}
+                Hello, I'M{" "}
+                
+            <Typed
+            strings={["Buddhi Chathuranga ", "A Full Stack Developer","A web developer"]}
+            typeSpeed={60}
+            backSpeed={40}
+            loop
+          />
+              </span>
+
+
+
             </div>
             <div>
               {/* <span className="primary-text">
