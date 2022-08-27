@@ -121,25 +121,25 @@ class Resume extends Component {
               <ul className="skills">
 
                 <em style={{ fontWeight: 900, fontSize: "20px" }}>HTML / JS / CSS</em>
-                <Progressbar bgcolor="orange" progress="90" height={30} />
+                <Progressbar bgcolor="#6E6E6E" progress="90" height={30} />
                 
                 <em style={{ fontWeight: 900, fontSize: "20px" }}>React</em>
-                <Progressbar bgcolor="orange" progress="70" height={30} />
+                <Progressbar bgcolor="#6E6E6E" progress="70" height={30} />
 
                 <em style={{ fontWeight: 900, fontSize: "20px" }}>SQL / Oracle / MongoDB / Firebase</em>
-                <Progressbar bgcolor="orange" progress="80" height={30} />
+                <Progressbar bgcolor="#6E6E6E" progress="80" height={30} />
 
                 <em style={{ fontWeight: 900, fontSize: "20px" }}>Java</em>
-                <Progressbar bgcolor="orange" progress="70" height={30} />
+                <Progressbar bgcolor="#6E6E6E" progress="70" height={30} />
 
                 <em style={{ fontWeight: 900, fontSize: "20px" }}>Python (Flask)</em>
-                <Progressbar bgcolor="orange" progress="60" height={30} />
+                <Progressbar bgcolor="#6E6E6E" progress="60" height={30} />
 
                 <em style={{ fontWeight: 900, fontSize: "20px" }}>C++</em>
-                <Progressbar bgcolor="orange" progress="80" height={30} />
+                <Progressbar bgcolor="#6E6E6E" progress="80" height={30} />
 
                 <em style={{ fontWeight: 900, fontSize: "20px" }}>C#</em>
-                <Progressbar bgcolor="orange" progress="75" height={30} />
+                <Progressbar bgcolor="#6E6E6E" progress="70" height={30} />
 
               </ul>
             </div>
