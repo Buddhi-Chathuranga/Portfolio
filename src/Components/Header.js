@@ -61,10 +61,10 @@ class Header extends Component {
             </Typist> */}
             <span className="primary-text" style={{ fontFamily: "Courier New", fontWeight: "bold" }}>
                 {" "}
-                Hello, I'M{" "}
+                Hello, {" "}<br/><br/>
                 
             <Typed
-            strings={["Buddhi Chathuranga ", "A Full Stack Developer","A web developer"]}
+            strings={["I'M Buddhi Chathuranga ", "I'M A Full Stack Developer","I'M A web developer"]}
             typeSpeed={60}
             backSpeed={40}
             loop
