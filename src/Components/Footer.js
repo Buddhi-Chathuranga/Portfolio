@@ -32,10 +32,12 @@ class Footer extends Component {
                       <i className="fa fa-linkedin-square"></i>
                     </a>
                   </div>
+              {networks}
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2022 Buddhi Chathranga</li>
+              <li>&copy; Copyright 2017 </li>
+              <li>Design by <a title="Styleshout">Buddhi Chayhiranga A .K</a></li>
            </ul>
 
         </div>
