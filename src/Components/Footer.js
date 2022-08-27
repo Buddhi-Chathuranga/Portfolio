@@ -15,7 +15,6 @@ class Footer extends Component {
      <div className="row">
         <div className="twelve columns">
            <ul className="social-links">
-              <div className="colz">
                   <div className="colz-icon">
                     <a href="https://github.com/Buddhi-Chathuranga">
                       <i className="fa fa-git-alt"></i>
@@ -33,7 +32,6 @@ class Footer extends Component {
                       <i className="fa fa-linkedin-square"></i>
                     </a>
                   </div>
-                </div>
            </ul>
 
            <ul className="copyright">
