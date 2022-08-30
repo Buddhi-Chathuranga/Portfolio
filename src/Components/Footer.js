@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 class Footer extends Component {
   render() {
+
     if (this.props.data) {
       var networks = this.props.data.social.map(function (network) {
         return (
@@ -18,7 +19,7 @@ class Footer extends Component {
       <footer>
         <div className="row">
           <div className="twelve columns">
-            <ul className="social-links">
+            {/* <ul className="social-links">
               <div className="colz-icon">
                 <a href="https://github.com/Buddhi-Chathuranga">
                   <i className="fa fa-git-alt"></i>
@@ -36,7 +37,7 @@ class Footer extends Component {
                   <i className="fa fa-linkedin-square"></i>
                 </a>
               </div>
-            </ul>
+            </ul> */}
 
             <ul className="copyright">
               <li>&copy; Copyright 2022 Buddhi Chathranga</li>

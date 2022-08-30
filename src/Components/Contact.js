@@ -1,23 +1,27 @@
 import React, { Component } from 'react';
-// import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 
 
 function sendEmail(e){
 
-   console.log('res')
-//    e.preventDefault();
+   e.preventDefault();
 
-//    emailjs.sendForm(
-//       'service_hsyivmj',
-//       'template_4az86xc', 
-//       e.target,
-//       'lyi7IodtBNSwDqeVz').then(res=>{
-//          console.log(res);
-//       }).catch(err=>console.log(err));
+   emailjs.sendForm(
+      'service_hsyivmj',
+      'template_4az86xc', 
+      e.target,
+      'lyi7IodtBNSwDqeVz').then(res=>{
+         console.log(res);
+      }).catch(err=>console.log(err));
    }
 
 class Contact extends Component {
   render() {
+
+   var emailSend = (e)=>{
+      e.preventDefault();
+      console.log("OK");
+    };
 
     if(this.props.data){
       var name = this.props.data.name;
