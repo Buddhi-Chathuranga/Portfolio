@@ -42,7 +42,7 @@ class Header extends Component {
             </li>
             <li>
               <a className="smoothscroll" href="#contact">
-                Contact
+                Tech Stack
               </a>
             </li>
           </ul>
@@ -122,7 +122,7 @@ class Header extends Component {
 <br/>
 <br/>
                 <div className="profile-options">
-                  <a href="#contact" className="smoothscroll">
+                  <a href="#about" className="smoothscroll">
                   <button  className="btn primary-btn">
                     {""}
                     Hire Me{" "}
