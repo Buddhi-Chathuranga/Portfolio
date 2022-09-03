@@ -128,9 +128,9 @@ class Header extends Component {
                     Hire Me{" "}
                   </button>
                   </a>
-                  <a href="./Buddhi.pdf" download={"Buddhi Buddhi.pdf"}>
+                  {/* <a href="./Buddhi.pdf" download={"Buddhi Buddhi.pdf"}>
                     <button className="btn highlighted-btn">Get Resume</button>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </ul>
